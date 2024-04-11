@@ -1,9 +1,46 @@
 
+body {
+    /*text-align: center;*/
+    /*width: auto;*/
+}
+
+/*Título topo*/
 h1 {
     color: red;
     text-align: center;
+    
 }
 
+table {
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+
+/*Linha*/
+tr {
+    /*width: 2rem;*/
+    height: 1rem;
+
+}
+
+/*Dados de cada célula*/
+td {
+    border: 2px solid black;
+
+}
+
+sub {
+    
+}
+
+/*Espaços vazios entre os quadrados*/
+.vazio {
+    border: none;
+}
+
+/*Cores*/
 .laranja {
     background-color: orange;
 }
