@@ -3,3 +3,37 @@ h1 {
     color: red;
     text-align: center;
 }
+
+.laranja {
+    background-color: orange;
+}
+
+.rosa {
+    background-color: rgb(240, 19, 192);
+}
+
+.red {
+    background-color: red;
+}
+
+.creme {
+    background-color: bisque;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.verde_escuro {
+    /*background-color: rgb(19, 133, 19);*/
+    background-color: rgb(48, 139, 48);
+}
+
+.violet {
+    background-color: violet;
+}
+
+.verde_claro {
+    /*background-color: chartreuse;*/
+    background-color: lime;
+}
