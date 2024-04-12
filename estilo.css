@@ -3,6 +3,7 @@ body {
     text-align: center;
     /*width: auto;*/
     background-color: rgba(0, 0, 0, 0.884);
+    align-items: center;
 }
 
 /*Título do topo da página*/
@@ -16,9 +17,12 @@ h1 {
 /*TABELA MAIOR*/
 
 table {
+    /*collapse é pra deixar os quadrados juntos*/
     border-collapse: collapse;
-    margin: auto;
-    
+    /*margin: auto;*/
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -33,13 +37,29 @@ tr {
 td {
     border: 2px solid black;
     width: 3rem;
+    /*border-radius: 15px;*/
 
+
+}
+
+td:hover {
+    transform: scale(1.1);
+    border: 2px solid black;
+    border-radius: 15px;
+
+    
 }
 
 
 /*Espaços vazios entre os quadrados*/
 .vazio {
     border: none;
+}
+
+.vazio:hover {
+    transform: none; /*tirar o transform scale dos vazios ao passar o mouse*/
+    border: none; /*tirar a borda dos vazios ao passar o mouse*/
+
 }
 
 /*Cores dos metais*/
@@ -92,6 +112,8 @@ td {
 /*TABELA 2 COM AS LINHAS 8 E 9*/
 .tabela_2 {
     margin-top: 2rem;
+    margin: auto;
+   
 }
 
 
