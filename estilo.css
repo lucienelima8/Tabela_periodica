@@ -5,7 +5,7 @@ body {
     background-color: rgba(0, 0, 0, 0.884);
 }
 
-/*Título topo*/
+/*Título do topo da página*/
 h1 {
     color: red;
     text-align: center;
@@ -13,6 +13,7 @@ h1 {
     
 }
 
+/*TABELA MAIOR*/
 
 table {
     border-collapse: collapse;
@@ -41,7 +42,7 @@ td {
     border: none;
 }
 
-/*Cores*/
+/*Cores dos metais*/
 .laranja {
     background-color: hsl(39, 96%, 52%);
 }
@@ -76,7 +77,7 @@ td {
     background-color: rgb(66, 240, 66);
 }
 
-.azul_forte {
+.azul_escuro {
     background-color: rgb(6, 6, 226);
 }
 
@@ -88,33 +89,106 @@ td {
     background-color: gray;
 }
 
-/*Tabela de baixo - linha 8 e 9*/
+/*TABELA 2 COM AS LINHAS 8 E 9*/
 .tabela_2 {
     margin-top: 2rem;
 }
 
-/*Legenda*/
+
+/*LEGENDA*/
+
 h4 {
     color: white;
     text-align: left;
     margin-left: 2rem;
     font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
+/*Com todos os nomes dos metais*/
+.div_legenda {
+    /*background-color: aliceblue;*/
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid white;*/
+
+}
+
+/*Nome de cada metal*/
 p {
     text-align: left;
     margin-left: 1rem;
     font-size: 1.2rem;
 }
 
+/*Metais alcalinos*/
 .legenda_red {
     color: red;
 }
 
+/*Metais alcalinoterrosos*/
 .legenda_creme {
     color: rgb(250, 195, 128);
-
 }
+
+/*Metais de transição*/
+.legenda_verde_claro {
+    color: rgb(66, 240, 66);
+}
+
+/*Metais pós-transição*/
+.legenda_violet {
+    color: rgb(180, 70, 180);
+}
+
+/*Semimetais*/
+.legenda_amarelo {
+    color: yellow;
+}
+
+/*Não metais poliatômicos*/
+.legenda_verde_escuro {
+    color: rgb(48, 139, 48);
+}
+
+/*Não metais diatômicos*/
+.legenda_laranja {
+    color: hsl(39, 96%, 52%);
+}
+
+/*Gases nobres*/
+.legenda_rosa {
+    color: rgb(240, 19, 192);
+}
+
+/*Propriedades químicas desconhecidas*/
+.legenda_cinza {
+    color: gray;
+}
+
+/*Lantanídeos*/
+.legenda_azul_escuro {
+    color: rgb(6, 6, 226);
+}
+
+/*Actinídeos*/
+.legenda_azul_claro {
+    color: rgb(26, 147, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
