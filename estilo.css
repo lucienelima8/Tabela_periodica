@@ -4,6 +4,7 @@ body {
     /*width: auto;*/
     background-color: rgba(0, 0, 0, 0.884);
     align-items: center;
+    
 }
 
 /*Título do topo da página*/
@@ -19,9 +20,25 @@ h1 {
 table {
     /*collapse é pra deixar os quadrados juntos*/
     border-collapse: collapse;
-    /*margin: auto;*/
-    margin-left: 2rem;
+    margin: auto;
+    /*margin-left: .1rem;
+    margin-right: 1rem;*/
     margin-bottom: 2rem;
+    /*margin-right: 2rem;*/
+
+    /*colapse retirou a borda no hover*/
+    /*border-collapse: colapse;*/
+    
+    /*separate manteve a borda no hover*/
+    border-collapse: separate;
+
+    /*espaço entre cada célula*/
+    border-spacing: .7px;
+
+    width: 100%;
+
+    table-layout: fixed;
+
 
 }
 
@@ -35,19 +52,33 @@ tr {
 
 /*Dados de cada célula*/
 td {
+    font-size: .8rem;
     border: 2px solid black;
-    width: 3rem;
     /*border-radius: 15px;*/
+
+    width: 4rem;
+
+    /*Espaço dentro da célula*/
+    padding: 2px;
+
+    /*Transition pra animação do hover*/
+    transition: transform 0.1s ease-in-out;
+
+    /*hidden pra esconder o nome pra que não passe o tamanho da célula*/
+    /*overflow: hidden;*/
+
+    /*ellipsis: nomes grandes, cortar e colocar reticências*/
+    /*text-overflow: ellipsis;*/
 
 
 }
 
 td:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     border: 2px solid black;
     border-radius: 15px;
-
-    
+    /*font-weight: bolder;*/
+   
 }
 
 
@@ -113,7 +144,8 @@ td:hover {
 .tabela_2 {
     margin-top: 2rem;
     margin: auto;
-   
+
+      
 }
 
 
