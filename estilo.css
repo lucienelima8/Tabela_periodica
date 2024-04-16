@@ -136,9 +136,9 @@ td:hover {
     background-color: rgb(26, 147, 247);
 }
 
-.cinza {
+/*.cinza {
     background-color: gray;
-}
+}*/
 
 /*TABELA 2 COM AS LINHAS 8 E 9*/
 .tabela_2 {
@@ -177,12 +177,17 @@ p {
     font-size: 1.2rem;
 }
 
+/*Não metais*/
+.legenda_laranja {
+    color: hsl(39, 96%, 52%);
+}
+
 /*Metais alcalinos*/
 .legenda_red {
     color: red;
 }
 
-/*Metais alcalinoterrosos*/
+/*Metais alcalinos terrosos*/
 .legenda_creme {
     color: rgb(250, 195, 128);
 }
@@ -192,35 +197,32 @@ p {
     color: rgb(66, 240, 66);
 }
 
-/*Metais pós-transição*/
-.legenda_violet {
-    color: rgb(180, 70, 180);
-}
-
 /*Semimetais*/
 .legenda_amarelo {
     color: yellow;
 }
 
-/*Não metais poliatômicos*/
+/*Outros metais*/
+.legenda_violet {
+    color: rgb(180, 70, 180);
+}
+
+
+/*Halogênios*/
 .legenda_verde_escuro {
     color: rgb(48, 139, 48);
 }
 
-/*Não metais diatômicos*/
-.legenda_laranja {
-    color: hsl(39, 96%, 52%);
-}
 
 /*Gases nobres*/
 .legenda_rosa {
     color: rgb(240, 19, 192);
 }
 
-/*Propriedades químicas desconhecidas*/
+/*Propriedades químicas desconhecidas
 .legenda_cinza {
     color: gray;
-}
+}*/
 
 /*Lantanídeos*/
 .legenda_azul_escuro {
