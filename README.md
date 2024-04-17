@@ -9,8 +9,6 @@ Autora: Luciene Lima
 
 <br>
 
-<img src="imagens/foto_capa.jpeg">
-
 <hr>
 
 <b>Plágio é crime.<br>
